@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B73F5EB623A0070E00E4F25F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F5EB523A0070E00E4F25F /* AppDelegate.swift */; };
+		B73F5EB823A0070E00E4F25F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F5EB723A0070E00E4F25F /* SceneDelegate.swift */; };
+		B73F5EBA23A0070E00E4F25F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F5EB923A0070E00E4F25F /* ViewController.swift */; };
+		B73F5EBD23A0070E00E4F25F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73F5EBB23A0070E00E4F25F /* Main.storyboard */; };
+		B73F5EBF23A0071200E4F25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73F5EBE23A0071200E4F25F /* Assets.xcassets */; };
+		B73F5EC223A0071200E4F25F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73F5EC023A0071200E4F25F /* LaunchScreen.storyboard */; };
+		B73F5ECD23A0071300E4F25F /* ToySimulatorRobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F5ECC23A0071300E4F25F /* ToySimulatorRobotTests.swift */; };
+		B73F5ED823A0072E00E4F25F /* ToyRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F5ED723A0072E00E4F25F /* ToyRobot.swift */; };
+		B73F5EDA23A0073D00E4F25F /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F5ED923A0073D00E4F25F /* Simulator.swift */; };
+		B73F5EDC23A0077600E4F25F /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F5EDB23A0077600E4F25F /* Direction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B73F5EC923A0071300E4F25F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B73F5EAA23A0070E00E4F25F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B73F5EB123A0070E00E4F25F;
+			remoteInfo = ToySimulatorRobot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B73F5EB223A0070E00E4F25F /* ToySimulatorRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToySimulatorRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73F5EB523A0070E00E4F25F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B73F5EB723A0070E00E4F25F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B73F5EB923A0070E00E4F25F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B73F5EBC23A0070E00E4F25F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B73F5EBE23A0071200E4F25F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B73F5EC123A0071200E4F25F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B73F5EC323A0071200E4F25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B73F5EC823A0071300E4F25F /* ToySimulatorRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToySimulatorRobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73F5ECC23A0071300E4F25F /* ToySimulatorRobotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToySimulatorRobotTests.swift; sourceTree = "<group>"; };
+		B73F5ECE23A0071300E4F25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B73F5ED723A0072E00E4F25F /* ToyRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyRobot.swift; sourceTree = "<group>"; };
+		B73F5ED923A0073D00E4F25F /* Simulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
+		B73F5EDB23A0077600E4F25F /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B73F5EAF23A0070E00E4F25F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73F5EC523A0071300E4F25F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B73F5EA923A0070E00E4F25F = {
+			isa = PBXGroup;
+			children = (
+				B73F5EB423A0070E00E4F25F /* ToySimulatorRobot */,
+				B73F5ECB23A0071300E4F25F /* ToySimulatorRobotTests */,
+				B73F5EB323A0070E00E4F25F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B73F5EB323A0070E00E4F25F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B73F5EB223A0070E00E4F25F /* ToySimulatorRobot.app */,
+				B73F5EC823A0071300E4F25F /* ToySimulatorRobotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B73F5EB423A0070E00E4F25F /* ToySimulatorRobot */ = {
+			isa = PBXGroup;
+			children = (
+				B73F5EDD23A184CA00E4F25F /* robotSimulator */,
+				B73F5EB523A0070E00E4F25F /* AppDelegate.swift */,
+				B73F5EB723A0070E00E4F25F /* SceneDelegate.swift */,
+				B73F5EB923A0070E00E4F25F /* ViewController.swift */,
+				B73F5EBB23A0070E00E4F25F /* Main.storyboard */,
+				B73F5EBE23A0071200E4F25F /* Assets.xcassets */,
+				B73F5EC023A0071200E4F25F /* LaunchScreen.storyboard */,
+				B73F5EC323A0071200E4F25F /* Info.plist */,
+			);
+			path = ToySimulatorRobot;
+			sourceTree = "<group>";
+		};
+		B73F5ECB23A0071300E4F25F /* ToySimulatorRobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				B73F5ECC23A0071300E4F25F /* ToySimulatorRobotTests.swift */,
+				B73F5ECE23A0071300E4F25F /* Info.plist */,
+			);
+			path = ToySimulatorRobotTests;
+			sourceTree = "<group>";
+		};
+		B73F5EDD23A184CA00E4F25F /* robotSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				B73F5ED723A0072E00E4F25F /* ToyRobot.swift */,
+				B73F5ED923A0073D00E4F25F /* Simulator.swift */,
+				B73F5EDB23A0077600E4F25F /* Direction.swift */,
+			);
+			path = robotSimulator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B73F5EB123A0070E00E4F25F /* ToySimulatorRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B73F5ED123A0071300E4F25F /* Build configuration list for PBXNativeTarget "ToySimulatorRobot" */;
+			buildPhases = (
+				B73F5EAE23A0070E00E4F25F /* Sources */,
+				B73F5EAF23A0070E00E4F25F /* Frameworks */,
+				B73F5EB023A0070E00E4F25F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToySimulatorRobot;
+			productName = ToySimulatorRobot;
+			productReference = B73F5EB223A0070E00E4F25F /* ToySimulatorRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B73F5EC723A0071300E4F25F /* ToySimulatorRobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B73F5ED423A0071300E4F25F /* Build configuration list for PBXNativeTarget "ToySimulatorRobotTests" */;
+			buildPhases = (
+				B73F5EC423A0071300E4F25F /* Sources */,
+				B73F5EC523A0071300E4F25F /* Frameworks */,
+				B73F5EC623A0071300E4F25F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B73F5ECA23A0071300E4F25F /* PBXTargetDependency */,
+			);
+			name = ToySimulatorRobotTests;
+			productName = ToySimulatorRobotTests;
+			productReference = B73F5EC823A0071300E4F25F /* ToySimulatorRobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B73F5EAA23A0070E00E4F25F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Saurabh Mishra";
+				TargetAttributes = {
+					B73F5EB123A0070E00E4F25F = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					B73F5EC723A0071300E4F25F = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = B73F5EB123A0070E00E4F25F;
+					};
+				};
+			};
+			buildConfigurationList = B73F5EAD23A0070E00E4F25F /* Build configuration list for PBXProject "ToySimulatorRobot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B73F5EA923A0070E00E4F25F;
+			productRefGroup = B73F5EB323A0070E00E4F25F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B73F5EB123A0070E00E4F25F /* ToySimulatorRobot */,
+				B73F5EC723A0071300E4F25F /* ToySimulatorRobotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B73F5EB023A0070E00E4F25F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73F5EC223A0071200E4F25F /* LaunchScreen.storyboard in Resources */,
+				B73F5EBF23A0071200E4F25F /* Assets.xcassets in Resources */,
+				B73F5EBD23A0070E00E4F25F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73F5EC623A0071300E4F25F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B73F5EAE23A0070E00E4F25F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73F5EBA23A0070E00E4F25F /* ViewController.swift in Sources */,
+				B73F5EDA23A0073D00E4F25F /* Simulator.swift in Sources */,
+				B73F5EB623A0070E00E4F25F /* AppDelegate.swift in Sources */,
+				B73F5EB823A0070E00E4F25F /* SceneDelegate.swift in Sources */,
+				B73F5ED823A0072E00E4F25F /* ToyRobot.swift in Sources */,
+				B73F5EDC23A0077600E4F25F /* Direction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73F5EC423A0071300E4F25F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73F5ECD23A0071300E4F25F /* ToySimulatorRobotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B73F5ECA23A0071300E4F25F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B73F5EB123A0070E00E4F25F /* ToySimulatorRobot */;
+			targetProxy = B73F5EC923A0071300E4F25F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B73F5EBB23A0070E00E4F25F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B73F5EBC23A0070E00E4F25F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B73F5EC023A0071200E4F25F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B73F5EC123A0071200E4F25F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B73F5ECF23A0071300E4F25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B73F5ED023A0071300E4F25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B73F5ED223A0071300E4F25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ8ZKV44NV;
+				INFOPLIST_FILE = ToySimulatorRobot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.ToySimulatorRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B73F5ED323A0071300E4F25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ8ZKV44NV;
+				INFOPLIST_FILE = ToySimulatorRobot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.ToySimulatorRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B73F5ED523A0071300E4F25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ8ZKV44NV;
+				INFOPLIST_FILE = ToySimulatorRobotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.ToySimulatorRobotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToySimulatorRobot.app/ToySimulatorRobot";
+			};
+			name = Debug;
+		};
+		B73F5ED623A0071300E4F25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ8ZKV44NV;
+				INFOPLIST_FILE = ToySimulatorRobotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.ToySimulatorRobotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToySimulatorRobot.app/ToySimulatorRobot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B73F5EAD23A0070E00E4F25F /* Build configuration list for PBXProject "ToySimulatorRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B73F5ECF23A0071300E4F25F /* Debug */,
+				B73F5ED023A0071300E4F25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B73F5ED123A0071300E4F25F /* Build configuration list for PBXNativeTarget "ToySimulatorRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B73F5ED223A0071300E4F25F /* Debug */,
+				B73F5ED323A0071300E4F25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B73F5ED423A0071300E4F25F /* Build configuration list for PBXNativeTarget "ToySimulatorRobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B73F5ED523A0071300E4F25F /* Debug */,
+				B73F5ED623A0071300E4F25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B73F5EAA23A0070E00E4F25F /* Project object */;
+}
