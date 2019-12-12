@@ -24,8 +24,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var xInc: UIButton!
     
     var commandArr = [String]()
-    let robot:ToyRobot? = nil
-    let simulator:Simulator? = nil
+
     var inpStr = ""
     var outStr = "OUTPUT : "
     override func viewDidLoad() {
